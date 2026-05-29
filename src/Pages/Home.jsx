@@ -4,9 +4,9 @@ import { useFunction } from '../store/useFunction.js';
 import { useAuthStore } from '../store/authStore.js';
 import { useCallStore } from '../store/useCallStore.js';
 
-const MainScreen = React.lazy(() => import('../components/screens/MainScreen'));
-const CallScreen = React.lazy(() => import('../components/screens/CallScreen'));
-const IncomingCall = React.lazy(() => import('../components/Calling/IncomingCallModal'));
+const MainScreen = React.lazy(() => import('../components/screens/MainScreen.jsx'));
+const CallScreen = React.lazy(() => import('../components/screens/CallScreen.jsx'));
+const IncomingCall = React.lazy(() => import('../components/Calling/IncomingCallModal.jsx'));
 
 
 // hook - bg color
