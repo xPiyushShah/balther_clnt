@@ -8,7 +8,6 @@ import { useAuthStore } from './store/authStore';
 const Home = lazy(() => import('./Pages/Home'));
 const Login = lazy(() => import('./Pages/Login'));
 const Register = lazy(() => import('./Pages/Register'));
-const CallScreen = lazy(() => import('./components/screens/CallScreen.jsx'));
 const Loader = lazy(() => import('./utils/Loader'));
 
 function App() {
