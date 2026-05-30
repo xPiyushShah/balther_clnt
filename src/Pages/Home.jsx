@@ -4,8 +4,8 @@ import { useFunction } from '../store/useFunction.js';
 import { useAuthStore } from '../store/authStore.js';
 import { useCallStore } from '../store/useCallStore.js';
 
-const MainScreen = React.lazy(() => import('../components/screens/MainScreen.jsx'));
-const CallScreen = React.lazy(() => import('../components/screens/CallScreen.jsx'));
+const MainScreen = React.lazy(() => import('../components/Screens/MainScreen.jsx'));
+const CallScreen = React.lazy(() => import('../components/Screens/CallScreen.jsx'));
 const IncomingCall = React.lazy(() => import('../components/Calling/IncomingCallModal.jsx'));
 
 
