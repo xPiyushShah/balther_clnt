@@ -15,7 +15,7 @@ function Register() {
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form Data:", formData);
+    // console.log("Form Data:", formData);
     await signUp(formData);
     setFormData({
       first_name: "",
